@@ -4,8 +4,8 @@ import time
 import urllib.request
 from datetime import datetime, timezone
 
-CLIENT_ID = os.environ["TWITCH_CLIENT_ID"]
-CLIENT_SECRET = os.environ["TWITCH_CLIENT_SECRET"]
+CLIENT_ID = os.environ["mcf6citksqn35qfzcne23s4ds0l3or"]
+CLIENT_SECRET = os.environ["mcf6citksqn35qfzcne23s4ds0l3or"]
 
 def get_access_token():
     url = f"https://id.twitch.tv/oauth2/token?client_id={CLIENT_ID}&client_secret={CLIENT_SECRET}&grant_type=client_credentials"
